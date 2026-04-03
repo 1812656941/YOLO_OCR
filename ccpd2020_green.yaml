@@ -1,0 +1,16 @@
+# datasets/CCPD2020/ccpd2020_green.yaml
+# CCPD2020 绿牌车牌检测数据集配置
+
+# 数据集根目录路径
+path: ./datasets/CCPD2020
+
+# 训练集、验证集、测试集路径（相对于path）
+train: images/train
+val: images/val
+test: images/test
+
+# 类别数量
+nc: 1
+
+# 类别名称
+names: ['green_license_plate']
