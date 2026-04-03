@@ -7,4 +7,6 @@ UI使用：点击导入文件，传入新能源车牌图片，点击目标检测
 <img width="425" height="384" alt="image" src="https://github.com/user-attachments/assets/4ab9d1ab-d9d4-4bff-8977-73200155c7a4" />
 <img width="425" height="385" alt="image" src="https://github.com/user-attachments/assets/97f5975c-d283-4cf7-aecb-8692149ad204" />
 
-用户需要下载CCPD2020数据集，并创建datasets文件夹，目录datasets/CCPD2020，并创建images和labels文件夹
+用户需要下载CCPD2020数据集，并创建datasets文件夹，目录datasets/CCPD2020，在该目录下创建images和labels文件夹，将图片与标签分别放入images和labels，并将ccpd2020_green.yaml文件放入datasets/CCPD2020目录下
+
+images和labels目录下创建train、test和val文件夹，将数据集合理划分
